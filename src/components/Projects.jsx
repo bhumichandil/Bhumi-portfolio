@@ -6,7 +6,7 @@ const projects = [
     description:
       "A task management application for organizing tasks, tracking progress and managing task-related information.",
     tech: ["Java", "Spring Boot", "MySQL", "REST API"],
-    github: "https://github.com/bhumichandil",
+    github: "https://github.com/bhumichandil/TaskManagement",
     demo: "",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     description:
       "A Java and MySQL application for managing hospital records and performing database CRUD operations.",
     tech: ["Java", "MySQL", "JDBC"],
-    github: "https://github.com/bhumichandil",
+    github: "https://github.com/bhumichandil/HospitalManagementSystem",
     demo: "",
   },
   {
@@ -24,9 +24,27 @@ const projects = [
     description:
       "A frontend practice project inspired by an e-commerce website, focused on page layout and user interface.",
     tech: ["HTML", "CSS", "JavaScript"],
-    github: "https://github.com/bhumichandil",
+    github: "https://github.com/bhumichandil/Amazone-clone",
     demo: "",
   },
+  {
+    number: "04",
+  title: "College Management System",
+  description:
+    "A Java-based application developed to manage college operations, student records, faculty details, and academic information efficiently.",
+  tech: ["Java", "MySQL", "JDBC"],
+  github: "https://github.com/bhumichandil/College-management-System",
+  demo: "",
+},
+{
+  number: "05",
+  title: "Currency Converter",
+  description:
+    "A web-based currency converter that allows users to convert amounts between different currencies using live exchange rates.",
+  tech: ["HTML", "CSS", "JavaScript"],
+  github: "https://github.com/bhumichandil/currency-converter",
+  demo:"",
+},
 ];
 
 export default function Projects() {

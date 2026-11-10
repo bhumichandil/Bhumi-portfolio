@@ -7,19 +7,19 @@ export default function Hero() {
       <div className="hero-content">
         <p className="eyebrow">
           <span className="status-dot"></span>
-          JAVA FULL STACK DEVELOPER
+          JAVA DEVELOPER
         </p>
 
         <h1>
           Hi, I'm <span>Bhumi Chandil</span>
         </h1>
 
-        <h2>Building solutions with Java & React.</h2>
+        <h2>Building solutions with Java</h2>
 
         <p className="hero-description">
-          I develop web applications using Java, Spring Boot,
-          React.js and MySQL. I enjoy solving problems and
-          building practical software projects.
+       I’m a Java Full Stack Developer passionate about building responsive, user-friendly web applications. 
+       I work with Java, Spring Boot, React.js, and MySQL to create practical solutions. 
+       I enjoy solving problems, exploring new technologies, and turning ideas into functional software applications.
         </p>
 
         <div className="hero-buttons">

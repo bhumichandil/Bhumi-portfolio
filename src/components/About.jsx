@@ -33,7 +33,7 @@ export default function About() {
           <div className="info-card">
             <Code2 />
             <h3>Backend Development</h3>
-            <p>Java, Spring Boot and REST APIs</p>
+            <p>Java, Spring Boot, REST APIs and JDBC</p>
           </div>
           <div className="info-card">
             <Laptop />
@@ -43,7 +43,7 @@ export default function About() {
           <div className="info-card">
             <Database />
             <h3>Database Management</h3>
-            <p>MySQL and database integration</p>
+            <p>MySQL, SQL and database connectivity</p>
           </div>
         </div>
       </div>

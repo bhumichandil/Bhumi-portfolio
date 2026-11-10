@@ -1,58 +1,89 @@
 
 export default function Contact() {
   return (
-    <section id="contact" className="section">
-      <div className="section-heading">
+    <section id="contact" className="section contact-section">
+
+      <div className="section-heading contact-heading">
         <p className="eyebrow">GET IN TOUCH</p>
 
         <h2>
-          Let's Work <span>Together</span>
+          Let's <span>Connect</span>
         </h2>
 
         <p>
-          Have an opportunity or project in mind? Feel free to reach out.
+          Looking for an aspiring software developer for your
+          team or have an internship opportunity? I'd love
+          to hear from you!
         </p>
       </div>
 
+  
       <div className="contact-card">
+
         <div className="contact-icon">{"</>"}</div>
 
-        <h3>Let's start a conversation</h3>
+        <h3>Let's Start a Conversation</h3>
 
         <p>
-          I'm interested in software development opportunities,
-          internships and collaborative projects.
+          I'm open to entry-level software developer roles,
+          internships and opportunities to learn, collaborate
+          and contribute to real-world projects.
         </p>
 
        
-<a
-  href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=bhumichandil27@gmail.com"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="btn btn-primary"
->
-  Email Me ↗
-</a>
+        <div className="contact-grid">
 
+          <a
+            href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=bhumichandil27@gmail.com"
+            className="contact-item"
+          >
+            <span className="contact-item-icon">✉</span>
+            <div>
+              <strong>Email Me ↗</strong>
+              <small>bhumichandil27@gmail.com</small>
+            </div>
+          </a>
 
-        <div className="contact-socials">
+          <a
+            href="tel:+918989415940"
+            className="contact-item"
+          >
+            <span className="contact-item-icon">☎</span>
+            <div>
+              <strong>Call Me ↗</strong>
+              <small>+91 89894-15940</small>
+            </div>
+          </a>
+
           <a
             href="https://github.com/bhumichandil"
             target="_blank"
             rel="noreferrer"
+            className="contact-item"
           >
-            GitHub ↗
+            <span className="contact-item-icon">◉</span>
+            <div>
+              <strong>GitHub ↗</strong>
+              <small>github.com/bhumichandil</small>
+            </div>
           </a>
 
           <a
             href="https://www.linkedin.com/in/bhumi-chandil-5260b633a/"
             target="_blank"
             rel="noreferrer"
+            className="contact-item"
           >
-            LinkedIn ↗
+            <span className="contact-item-icon">in</span>
+            <div>
+              <strong>LinkedIn ↗</strong>
+              <small>linkedin.com/in/bhumi-chandil</small>
+            </div>
           </a>
+
         </div>
       </div>
+
     </section>
   );
 }

@@ -12,7 +12,7 @@ const skillGroups = [
   {
     title: "Programming",
     icon: Coffee,
-    skills: ["Java", "C++", "DSA"],
+    skills: ["Java", "C++","OOP"],
   },
   {
     title: "DSA",
@@ -22,17 +22,17 @@ const skillGroups = [
   {
     title: "Frontend",
     icon: Globe,
-    skills: ["HTML5", "CSS3", "JavaScript", "React.js"],
+    skills: ["HTML5", "CSS3", "JavaScript", "React.js", "DOM Manipulation"],
   },
   {
     title: "Backend",
     icon: Code2,
-    skills: ["Spring Boot", "REST APIs", "JPA / Hibernate"],
+    skills: ["Spring Boot", "REST APIs", "JPA / Hibernate","JDBC","CRUD Operations","Authentication"],
   },
   {
     title: "Database",
     icon: Database,
-    skills: ["MySQL", "SQL"],
+    skills: ["MySQL", "SQL","SQL Queries","Joins","Database Connectivity"],
   },
   {
     title: "Tools",
@@ -42,7 +42,7 @@ const skillGroups = [
   {
     title: "Development",
     icon: Layers,
-    skills: ["OOP", "CRUD", "API Testing"],
+    skills: ["Project Setup & Configuration","API Testing","Debugging","Exception Handling"],
   },
 ];
 
