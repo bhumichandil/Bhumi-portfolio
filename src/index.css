@@ -767,9 +767,15 @@ section {
     grid-row: 1;
   }
 
-  .floating-card {
+  /* .floating-card {
     left: -20px;
-  }
+  } */
+   .floating-card {
+  left: 50%;
+  bottom: -25px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
 
   .about-grid,
   .skills-grid,
